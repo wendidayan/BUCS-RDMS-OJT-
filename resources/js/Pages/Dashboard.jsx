@@ -20,9 +20,8 @@ export default function Dashboard() {
     return (
         <Layout>
             <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
-            
             {/* Publications table */}
-            <div className="bg-white rounded-lg shadow mb-8">
+            <div className="mt-4 bg-white rounded-lg shadow mb-8">
                 <div className="p-4 border-b border-gray-200">
                     <h2 className="text-lg font-semibold">Application for Databasing of Publication to be Sign</h2>
                 </div>
@@ -37,7 +36,7 @@ export default function Dashboard() {
                             </tr>
                         </thead>
                         <tbody className="bg-white divide-y divide-gray-200">
-                            {mockPublications.map(pub => (
+                           {/* {mockPublications.map(pub => (
                                 <tr key={pub.id}>
                                     <td className="px-6 py-4">{pub.title}</td>
                                     <td className="px-6 py-4">{pub.authors}</td>
@@ -47,7 +46,7 @@ export default function Dashboard() {
                                         <button className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">View</button>
                                     </td>
                                 </tr>
-                            ))}
+                            ))}*/}
                         </tbody>
                     </table>
                 </div>
